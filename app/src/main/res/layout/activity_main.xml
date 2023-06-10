@@ -4,22 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:onClick="next"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@drawable/bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_height="match_parent" android:layout_width="match_parent">
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="@color/black"
+            android:background="#262626"
+            app:circularflow_defaultRadius="60dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -30,7 +37,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
                 android:layout_marginBottom="26dp"
-                android:background="@color/black"
+                android:background="#262626"
+                android:contentDescription="no"
                 android:onClick="back"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -41,14 +49,76 @@
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageButton"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/icon" />
+                app:srcCompat="@drawable/logonew" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/gbutton"
+            android:layout_width="280dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="471dp"
+            android:background="#F2FC3B"
+            android:fontFeatureSettings="@string/material_motion_easing_standard"
+            android:onClick="next"
+            android:text="Guitar Chords"
+
+            android:textColor="@color/black"
+
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <Button
+            android:id="@+id/pbutton"
+            android:layout_width="280dp"
+            android:layout_height="66dp"
+
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="60dp"
+            android:background="#F5F83D"
+            android:fontFeatureSettings="@string/material_motion_easing_standard"
+            android:onClick="next"
+            android:text="Piano Chords"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/gbutton3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gbutton" />
+
+        <Button
+            android:id="@+id/gbutton3"
+            android:layout_width="280dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="150dp"
+            android:background="#F9FA30"
+
+            android:fontFeatureSettings="@string/material_motion_easing_standard"
+            android:text="Guitar Chords"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pbutton" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
