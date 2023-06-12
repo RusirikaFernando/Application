@@ -17,5 +17,8 @@ public class loginpage extends AppCompatActivity {
         Intent i= new Intent(this, Welcome.class);
         startActivity(i);
     }
-
+    public void next(View n){
+        Intent i = new Intent(this, rabanaHome.class);
+        startActivity(i);
+    }
 }

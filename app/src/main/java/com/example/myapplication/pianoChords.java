@@ -14,7 +14,7 @@ public class pianoChords extends AppCompatActivity {
         setContentView(R.layout.activity_piano_chords);
     }
     public void back(View v){
-        Intent i= new Intent(this, MainActivity.class);
+        Intent i= new Intent(this, searchBar.class);
         startActivity(i);
     }
 

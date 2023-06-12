@@ -120,6 +120,7 @@
                 android:layout_marginEnd="3dp"
                 android:layout_marginBottom="2dp"
                 android:background="#DADA5D"
+                android:onClick="artist"
                 android:text="Artists"
                 android:textSize="19dp"
                 app:layout_constraintBottom_toBottomOf="parent"

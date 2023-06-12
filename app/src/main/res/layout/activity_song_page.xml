@@ -17,41 +17,53 @@
             android:id="@+id/imageView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/searchbar"
-            tools:layout_editor_absoluteX="55dp"
-            tools:layout_editor_absoluteY="18dp" />
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="no"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/searchbar" />
 
         <ImageView
             android:id="@+id/imageView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/baseline_keyboard_arrow_left_24"
-            tools:layout_editor_absoluteX="5dp"
-            tools:layout_editor_absoluteY="18dp" />
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="no"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_keyboard_arrow_left_24" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="140dp"
             android:text="WindimiAdare"
             android:textAlignment="center"
             android:textColor="#A5950D"
             android:textSize="25dp"
-            tools:layout_editor_absoluteX="111dp"
-            tools:layout_editor_absoluteY="29dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/baseline_close_24"
-            tools:layout_editor_absoluteX="299dp"
-            tools:layout_editor_absoluteY="29dp" />
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="76dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_close_24" />
 
         <TextView
             android:id="@+id/textView37"
             android:layout_width="351dp"
             android:layout_height="722dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="128dp"
             android:text="රෑ පානේ තරුවක් දිස් වෙන්නේ
 නුබ කෝ කියා ඇසුවා එදා
 මා ගාවින් තනියයි වැලපෙන්නේ
@@ -86,23 +98,29 @@
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25dp"
-            tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="138dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView53"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/baseline_favorite_border_24"
-            tools:layout_editor_absoluteX="29dp"
-            tools:layout_editor_absoluteY="80dp" />
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="68dp"
+            android:contentDescription="no"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_favorite_border_24" />
 
         <ImageView
             android:id="@+id/imageView54"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/baseline_file_download_24"
-            tools:layout_editor_absoluteX="330dp"
-            tools:layout_editor_absoluteY="80dp" />
+            android:layout_marginTop="68dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="no"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_file_download_24" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

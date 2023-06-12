@@ -56,14 +56,6 @@
             tools:layout_editor_absoluteY="250dp" />
 
         <ImageView
-            android:id="@+id/imageView43"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/note"
-            tools:layout_editor_absoluteX="227dp"
-            tools:layout_editor_absoluteY="250dp" />
-
-        <ImageView
             android:id="@+id/imageView44"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -266,6 +258,18 @@
             android:textSize="15dp"
             tools:layout_editor_absoluteX="319dp"
             tools:layout_editor_absoluteY="556dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="248dp"
+            android:layout_marginEnd="128dp"
+            android:background="#08000000"
+            android:onClick="next"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/note" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

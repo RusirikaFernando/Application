@@ -17,60 +17,64 @@
             android:id="@+id/imageView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/searchbar"
-            tools:layout_editor_absoluteX="66dp"
-            tools:layout_editor_absoluteY="27dp" />
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/searchbar" />
 
         <ImageView
             android:id="@+id/imageView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/baseline_search_24"
-            tools:layout_editor_absoluteX="320dp"
-            tools:layout_editor_absoluteY="39dp" />
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_search_24" />
 
         <ImageView
             android:id="@+id/imageView24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/baseline_keyboard_arrow_left_24"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="30dp" />
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_keyboard_arrow_left_24" />
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="186dp"
             android:layout_height="24dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="120dp"
             android:text="type artist...."
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="97dp"
-            tools:layout_editor_absoluteY="39dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/imageView25"
             android:layout_width="85dp"
             android:layout_height="85dp"
-            app:srcCompat="@drawable/umaria"
-            tools:layout_editor_absoluteX="33dp"
-            tools:layout_editor_absoluteY="114dp" />
-
-        <ImageView
-            android:id="@+id/imageView26"
-            android:layout_width="85dp"
-            android:layout_height="85dp"
-            app:srcCompat="@drawable/dinesh_gamage"
-            tools:layout_editor_absoluteX="162dp"
-            tools:layout_editor_absoluteY="114dp" />
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="112dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/umaria" />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="216dp"
             android:text="Umaria"
             android:textColor="#A3D16D"
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="33dp"
-            tools:layout_editor_absoluteY="218dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
@@ -83,9 +87,11 @@
             android:id="@+id/imageView35"
             android:layout_width="85dp"
             android:layout_height="85dp"
-            app:srcCompat="@drawable/yohani"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="114dp" />
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/yohani" />
 
         <ImageView
             android:id="@+id/imageView36"
@@ -139,21 +145,25 @@
             android:id="@+id/textView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="216dp"
             android:text="Dinesh Gamage"
             android:textColor="#A3D16D"
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="133dp"
-            tools:layout_editor_absoluteY="218dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="216dp"
+            android:layout_marginEnd="44dp"
             android:text="Yohani"
             android:textColor="#A3D16D"
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="303dp"
-            tools:layout_editor_absoluteY="218dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView22"
@@ -221,6 +231,17 @@
             android:textSize="20dp"
             tools:layout_editor_absoluteX="258dp"
             tools:layout_editor_absoluteY="621dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="164dp"
+            android:layout_marginTop="112dp"
+            android:onClick="next"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dinesh_gamage" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,4 +18,8 @@ public class rabanaHome extends AppCompatActivity {
         Intent i = new Intent(rabanaHome.this, MainActivity.class);
         startActivity(i);
     }
+    public void artist(View n){
+        Intent i = new Intent(rabanaHome.this, artists.class);
+        startActivity(i);
+    }
 }

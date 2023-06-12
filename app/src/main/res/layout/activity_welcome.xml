@@ -70,6 +70,7 @@
             android:layout_marginEnd="68dp"
             android:background="#00000000"
             android:contentDescription="no"
+            android:onClick="next"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/firststart" />

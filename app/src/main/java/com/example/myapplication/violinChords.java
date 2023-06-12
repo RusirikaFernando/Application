@@ -15,7 +15,7 @@ public class violinChords extends AppCompatActivity {
     }
 
     public void back(View v){
-        Intent i= new Intent(this, MainActivity.class);
+        Intent i= new Intent(this, searchBar.class);
         startActivity(i);
     }
 
