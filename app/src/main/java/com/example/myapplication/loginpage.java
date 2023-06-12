@@ -2,7 +2,9 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class loginpage extends AppCompatActivity {
 
@@ -11,4 +13,9 @@ public class loginpage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loginpage);
     }
+    public void back(View v){
+        Intent i= new Intent(this, Welcome.class);
+        startActivity(i);
+    }
+
 }
