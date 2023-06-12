@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".songPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="@drawable/mic1"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/searchbar"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_keyboard_arrow_left_24"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WindimiAdare"
+            android:textAlignment="center"
+            android:textColor="#A5950D"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_close_24"
+            tools:layout_editor_absoluteX="299dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="351dp"
+            android:layout_height="722dp"
+            android:text="රෑ පානේ තරුවක් දිස් වෙන්නේ
+නුබ කෝ කියා ඇසුවා එදා
+මා ගාවින් තනියයි වැලපෙන්නේ
+කදුලින් සදා මල් දම් ගොතා
+හිරි වැටුනු සද සේයා
+නිදි වරපු රෑ මාහා
+තනිවෙන්න හදවත් දැන් හිගයි
+වැහිබිදු වැටෙනවා නම්
+සුලගක් සැලෙනවානම්
+මොහොතක් තනිවී විදිමී ආදරේ
+ලංවී ඉන්නෙ මානම්
+රහසක් කියනවානම්
+මොහොතක් තනිවී සොයමී ආදරේ
+මනලෝල රංග සේනා
+හදේ සියුම්ව දාරා
+නැවතිලා නැවතිලා නේ
+නිබ රහසෙ කියන ගීතා
+සෙමෙන් ඇසෙන්නෙ මාත්රා
+පැටලිලා පැටලිලා නේ
+හිරි වැටුනු සද සේයා
+නිදි වරපු රෑ මාහා
+තනිවෙන්න හදවත් දැන් හිගයි
+වැහිබිදු වැටෙනවා නම්
+සුලගක් සැලෙනවානම්
+මොහොතක් තනිවී විදිමී ආදරේ
+වැහිබිදු වැටෙනවා නම්
+සුලගක් සැලෙනවානම්
+මොහොතක් තනිවී විදිමී ආදරේ
+ලංවී ඉන්නෙ මානම්
+රහසක් කියනවානම්
+මොහොතක් තනිවී සොයමී ආදරේ"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_favorite_border_24"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_file_download_24"
+            tools:layout_editor_absoluteX="330dp"
+            tools:layout_editor_absoluteY="80dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
