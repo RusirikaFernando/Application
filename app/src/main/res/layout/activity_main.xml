@@ -111,6 +111,7 @@
             android:background="#F9FA30"
 
             android:fontFeatureSettings="@string/material_motion_easing_standard"
+            android:onClick="next"
             android:text="Guitar Chords"
             android:textColor="@color/black"
             android:textSize="20dp"

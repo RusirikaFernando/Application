@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pianoChords">
+    tools:context=".guitarChords">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/piano"
+        android:background="@drawable/guitar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,99 +80,81 @@
                     android:layout_marginStart="17dp"
                     android:layout_marginTop="15dp"
                     android:text="
+AbAA#BbBCC#DbDD#EbEFF#GbGG#
+
 [Intro]
 ---------------------------------------
-
-
-G                                   Em
-B C' D C D C D E D... D E D  B C' A B...
- G   Em
-B C' D C D C D E D... D E D  B C' A B C' B...
-  Am         G         Bm       C        Em
-E A B A.. D  G A G.. C E G F# D E D E D C B
+| F#   | Abm  | B  | C#  |
+| F#   | Abm  | B  | C#  |
+| D#m  | C#   | B  | C#  |
+| D#m  | C#   | B  | C#  |
 
 [Chorus]
-----------------------------------------
-          Am        G      Em
-E E  F# G A A  A A  G B  A G F# E
-Madu mala lesa mudu mage priyadara
-C        D
-E E F# A F# E D D F#..
-mihiraviya wetathai..
-         Am        G       D
-E F# G  A  A   A   G B A F# E F# E D
-oba sihi kara kara obata liyana eka
-C         D        Em
-E F#  G A  F#  E D E....
-mata ethi eka sathutay....
+---------------------------------------
+F#            Abm
+Math Mal Sena Pawe Pawe
+B           C#
+Dase Dawate Ma
+F#           Abm
+Siththam Wila Ma Neth Mane
+B             C#
+Senehe Suwase Ma
+D#m  C#  B       C#
+La Ire - Ran Gewila
+  D#m     C#   B            C#
+Sada Snehaye - Mal Wahi Wehuna
 
-[Inter 1  2]
-----------------------------------------
-Em     Am  D            G
-E..G B A.... D..F#..A...G..
-Em             G         Bm          Em
-C' B A G F# E  D C B D#' F# A C' B A B...
+Da Da Da Da...
+  | F#  | -  | D#m  | -  |
+  | B   | -  | C#   | -  |
+  | F#  | -  | D#m  | -  |
+  | B   | -  | C#   | -  |
 
+[Inter]
+---------------------------------------
+| F#   | -  | D#m  | -  |
+| A#m  | -  | B    | -  |
+| F#   | -  | D#m  | -  |
+| A#m  | -  | B    | -  |
 
 [Verse 1]
-----------------------------------------
-Em      Am        Em
-B A A   A..  A  A   G.. F#   E   E..
-apamana sithiwuli   bihi wee therapee
-Am      D         Em
-A   A   F# A D' C B
-ekineka petalenne
-Am               Bm
-A B C' B C' B A  F# E D  A A A
-kohoma patangena monawaliyannada
-D          D7     Em
-F#    E D   A G F# E...
-netha mata wetahenne...
-Em      C        D     Em
-B E' E  E  E E   D... E E E
-ketiyen pawasami mage adariye
-        D
-E F# A  F# F# E D F#...
-keemata ethi semade..
-Em      Am       G     Em
-E E F#  G A  A  G B A G F# E
-parewi rejiniye eda wage adath
-Em       C         D
-B E' E  E E E  F# A F# E D D F#
-obata thawama mama aadaraey..
-Em       D         Em
-B E' E E E F# F# A F# E E ...
-obata thawama mama aadaraey..
+--------------------------------------
+F#                  D#m
+Pipi Hadu Sulange - Muwa Gawa Gawase
+B                    C#
+Dethole Lagum Soya Soya
+F#                D#m
+Sanda Renu Yaye - Mudu Seetha Dilune
+B                   C#
+Langwennamai Neth Piya
+D#m   A#m     D#m   C#m
+Udawe Ma - Sandawe Muda
+     B               E
+Neka Swarna Ras Rangana Wahi Thire
 
-[Verse 2]
-----------------------------------------
-Em      Am        Em
-B A A   A..  A  A   G.. F#   E   E..
-Hitha goluwenawa atha wewlanawa
-Am      D         Em
-A   A   F# A D' C B
-hadawatha gessenawa...
-Am               Bm
-A B C' B C' B A  F# E D  A A A
-lipiyehi kolayata muhuna yomana wita
-D          D7     Em
-F#    E D   A G F# E...
-neth deka piya wenawa...
-Em      C        D     Em
-B E' E  E  E E   D... E E E
-ketiyen pawasami mage adariye
-        D
-E F# A  F# F# E D F#...
-keemata ethi semade..
-Em      Am       G     Em
-E E F#  G A  A  G B A G F# E
-parewi rejiniye eda wage adath
-Em       C         D
-B E' E  E E E  F# A F# E D D F#
-obata thawama mama aadaraey..
-Em       D         Em
-B E' E E E F# F# A F# E E ...
-obata thawama mama aadaraey..
+Da Da Da Da...
+
+[Inter]
+---------------------------------------
+| F#   | -  | D#m  | -  |
+| A#m  | -  | B    | -  |
+
+[Verse 1]
+---------------------------------------
+F#                D#m
+Oba Gawa Seethe - Hitha Heena Neluwe
+B                  C#
+Ra Thunyame Hith Pura
+F#              D#m
+Nododama Dase - Kawi Geetha mawune
+B                   C#
+Dethole Susum Uthurala
+D#m   A#m     D#m   C#m
+Udawe Ma - Sandawe Muda
+     B               E
+Neka Swarna Ras Rangana Wahi Thire
+
+Da Da Da Da...
 
 "
                     android:textColor="@color/white"
@@ -188,9 +170,9 @@ obata thawama mama aadaraey..
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
-            android:text="Madu mala lesa"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="25dp"
+            android:text="Math mal sena"
             android:textColor="#A5950D"
             android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -200,8 +182,8 @@ obata thawama mama aadaraey..
             android:id="@+id/imageButton9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="72dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="88dp"
             android:background="#11000000"
             android:contentDescription="no"
             app:layout_constraintStart_toStartOf="@+id/imageButton2"
@@ -212,7 +194,7 @@ obata thawama mama aadaraey..
             android:id="@+id/imageButton10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="90dp"
             android:layout_marginEnd="16dp"
             android:background="#11000000"
             android:contentDescription="no"

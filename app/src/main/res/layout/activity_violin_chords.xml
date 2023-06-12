@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pianoChords">
+    tools:context=".violinChords">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/piano"
+        android:background="@drawable/violin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,100 +80,51 @@
                     android:layout_marginStart="17dp"
                     android:layout_marginTop="15dp"
                     android:text="
-[Intro]
----------------------------------------
+
+[intro]
+--------------------------------------------
+G G G A      G A A#
+G A G A      F A A
+A#... A# C D   C D C A#    A G F
+A G G
 
 
-G                                   Em
-B C' D C D C D E D... D E D  B C' A B...
- G   Em
-B C' D C D C D E D... D E D  B C' A B C' B...
-  Am         G         Bm       C        Em
-E A B A.. D  G A G.. C E G F# D E D E D C B
-
-[Chorus]
-----------------------------------------
-          Am        G      Em
-E E  F# G A A  A A  G B  A G F# E
-Madu mala lesa mudu mage priyadara
-C        D
-E E F# A F# E D D F#..
-mihiraviya wetathai..
-         Am        G       D
-E F# G  A  A   A   G B A F# E F# E D
-oba sihi kara kara obata liyana eka
-C         D        Em
-E F#  G A  F#  E D E....
-mata ethi eka sathutay....
-
-[Inter 1  2]
-----------------------------------------
-Em     Am  D            G
-E..G B A.... D..F#..A...G..
-Em             G         Bm          Em
-C' B A G F# E  D C B D#' F# A C' B A B...
+[chorus]
+--------------------------------------------
+      Gm              F
+D A G A G    A G   F G A C A G  F G A
+Thawa eka sarayak, oba hamuwannata athinam
+Bb           Gm
+D F D C  C D D
+Nosagawa pawasannam
+F            Gm
+F G A    C G A GG
+Obata adarei man
+                    F
+D A G A G      A G   F G A C A G    G A A
+Na iwasillak, sitha oba wimasanawa dan
+Bb            Gm
+D F D C  C D D
+Kumak krannada man
+F            Gm
+F G A    C G A G
+Obata adarei nam
 
 
-[Verse 1]
-----------------------------------------
-Em      Am        Em
-B A A   A..  A  A   G.. F#   E   E..
-apamana sithiwuli   bihi wee therapee
-Am      D         Em
-A   A   F# A D' C B
-ekineka petalenne
-Am               Bm
-A B C' B C' B A  F# E D  A A A
-kohoma patangena monawaliyannada
-D          D7     Em
-F#    E D   A G F# E...
-netha mata wetahenne...
-Em      C        D     Em
-B E' E  E  E E   D... E E E
-ketiyen pawasami mage adariye
-        D
-E F# A  F# F# E D F#...
-keemata ethi semade..
-Em      Am       G     Em
-E E F#  G A  A  G B A G F# E
-parewi rejiniye eda wage adath
-Em       C         D
-B E' E  E E E  F# A F# E D D F#
-obata thawama mama aadaraey..
-Em       D         Em
-B E' E E E F# F# A F# E E ...
-obata thawama mama aadaraey..
-
-[Verse 2]
-----------------------------------------
-Em      Am        Em
-B A A   A..  A  A   G.. F#   E   E..
-Hitha goluwenawa atha wewlanawa
-Am      D         Em
-A   A   F# A D' C B
-hadawatha gessenawa...
-Am               Bm
-A B C' B C' B A  F# E D  A A A
-lipiyehi kolayata muhuna yomana wita
-D          D7     Em
-F#    E D   A G F# E...
-neth deka piya wenawa...
-Em      C        D     Em
-B E' E  E  E E   D... E E E
-ketiyen pawasami mage adariye
-        D
-E F# A  F# F# E D F#...
-keemata ethi semade..
-Em      Am       G     Em
-E E F#  G A  A  G B A G F# E
-parewi rejiniye eda wage adath
-Em       C         D
-B E' E  E E E  F# A F# E D D F#
-obata thawama mama aadaraey..
-Em       D         Em
-B E' E E E F# F# A F# E E ...
-obata thawama mama aadaraey..
-
+[verse]
+---------------------------------------------
+Gm  Eb          F
+A# A G AA       F G A  G A G
+Wile nelum mal, kopamana thibunath
+Gm               F
+G G F GG          F G A G A
+Eka malakata pem karami sithin
+Bb      Eb   F     Dm
+A# A# A A# A#       C A  G A A
+Nelanna asai dothin e mala
+F     Dm      F      Gm
+F G A   G A A       F G A G
+Magema wannata hamadamath
 "
                     android:textColor="@color/white"
                     android:textSize="25dp"
@@ -188,9 +139,9 @@ obata thawama mama aadaraey..
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
-            android:text="Madu mala lesa"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="25dp"
+            android:text="Thawa eka sarayak"
             android:textColor="#A5950D"
             android:textSize="25dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -200,8 +151,8 @@ obata thawama mama aadaraey..
             android:id="@+id/imageButton9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="72dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="88dp"
             android:background="#11000000"
             android:contentDescription="no"
             app:layout_constraintStart_toStartOf="@+id/imageButton2"
@@ -212,7 +163,7 @@ obata thawama mama aadaraey..
             android:id="@+id/imageButton10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="90dp"
             android:layout_marginEnd="16dp"
             android:background="#11000000"
             android:contentDescription="no"
@@ -221,4 +172,5 @@ obata thawama mama aadaraey..
             app:srcCompat="@drawable/baseline_file_download_24" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
