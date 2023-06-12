@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class loginpage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        /// name///
+        setContentView(R.layout.activity_loginpage);
     }
-    public void next(View n){
-        Intent i = new Intent(this, searchBar.class);
+    public void back(View v){
+        Intent i= new Intent(this, Welcome.class);
         startActivity(i);
     }
+
 }
