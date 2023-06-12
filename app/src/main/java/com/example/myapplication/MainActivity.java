@@ -14,14 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         /// name///
     }
-    public void back(View v){
-        Intent i= new Intent(this, rabanaHome.class);
-        startActivity(i);
-    }
     public void next(View n){
-        Intent i = new Intent(MainActivity.this, searchBar.class);
+        Intent i = new Intent(this, searchBar.class);
         startActivity(i);
     }
-
-
 }
