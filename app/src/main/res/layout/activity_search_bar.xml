@@ -94,11 +94,10 @@
             app:srcCompat="@drawable/baseline_search_24" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/openkeyboard"
             android:layout_width="168dp"
             android:layout_height="49dp"
             android:background="@color/white"
-            android:onClick="next"
             android:text="Type Song...."
             android:textSize="19dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -165,35 +164,44 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/note2" />
 
-        <ImageView
-            android:id="@+id/imageView27"
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="148dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="160dp"
+            android:background="#00000000"
+            android:contentDescription="no"
+            android:onClick="gnext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/guitarchords" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="120dp"
-            android:layout_marginTop="210dp"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="344dp"
+            android:layout_marginEnd="168dp"
+            android:background="#00000000"
+            android:contentDescription="no"
+            android:onClick="pnext"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/classical" />
+            app:srcCompat="@drawable/pianochords" />
 
-        <ImageView
-            android:id="@+id/imageView28"
+        <ImageButton
+            android:id="@+id/imageButton11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="116dp"
-            android:layout_marginTop="344dp"
+            android:layout_marginBottom="136dp"
+            android:background="#00000000"
+            android:contentDescription="no"
+            android:onClick="vnext"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/madeforyou" />
-
-        <ImageView
-            android:id="@+id/imageView29"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="480dp"
-            android:layout_marginEnd="168dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/newrelease" />
+            app:srcCompat="@drawable/violinchords" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
