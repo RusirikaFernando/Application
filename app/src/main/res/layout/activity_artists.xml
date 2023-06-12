@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artists">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="@drawable/bg"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/searchbar"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="27dp" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_search_24"
+            tools:layout_editor_absoluteX="320dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_keyboard_arrow_left_24"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="30dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="186dp"
+            android:layout_height="24dp"
+            android:text="type artist...."
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="97dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/umaria"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/dinesh_gamage"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umaria"
+            android:textColor="#A3D16D"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="-5dp" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/yohani"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/amaradeva"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/sunil_edhir"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/gunadasa_kapuge"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/edward_jayakodi"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/dhanith_sri"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/adk"
+            tools:layout_editor_absoluteX="289dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinesh Gamage"
+            android:textColor="#A3D16D"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yohani"
+            android:textColor="#A3D16D"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="303dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="123dp"
+            android:layout_height="82dp"
+            android:text="W.D.      Amaradeva"
+            android:textAlignment="center"
+            android:textColor="#A3D16D"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="404dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="152dp"
+            android:layout_height="53dp"
+            android:text="Sunil Edhirisinghe"
+            android:textAlignment="center"
+            android:textColor="#A3D16D"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="404dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="132dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="12dp"
+            android:text="Gunadasa Kapuge"
+            android:textAlignment="center"
+            android:textColor="#A3D16D"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="404dp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="152dp"
+            android:layout_height="104dp"
+            android:text="Edward Jayakodi"
+            android:textAlignment="center"
+            android:textColor="#A3D16D"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="621dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhanith Sri"
+            android:textAlignment="center"
+            android:textColor="#A3D16D"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="621dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="135dp"
+            android:layout_height="66dp"
+            android:text="Dinesh Kanagaratnam"
+            android:textAlignment="center"
+            android:textColor="#A3D16D"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="621dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
