@@ -40,7 +40,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginEnd="354dp"
             android:layout_marginBottom="676dp"
-            android:background="#262626"
+            android:background="#0D262626"
             android:contentDescription="no"
             android:onClick="back"
             app:layout_constraintBottom_toBottomOf="parent"
