@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
+            android:onClick="back"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/baseline_keyboard_arrow_left_24" />
@@ -97,49 +98,61 @@
             android:id="@+id/imageView36"
             android:layout_width="85dp"
             android:layout_height="85dp"
-            app:srcCompat="@drawable/amaradeva"
-            tools:layout_editor_absoluteX="33dp"
-            tools:layout_editor_absoluteY="302dp" />
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="280dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/amaradeva" />
 
         <ImageView
             android:id="@+id/imageView37"
             android:layout_width="85dp"
             android:layout_height="85dp"
-            app:srcCompat="@drawable/sunil_edhir"
-            tools:layout_editor_absoluteX="162dp"
-            tools:layout_editor_absoluteY="302dp" />
+            android:layout_marginTop="292dp"
+            android:layout_marginEnd="176dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sunil_edhir" />
 
         <ImageView
             android:id="@+id/imageView38"
             android:layout_width="85dp"
             android:layout_height="85dp"
-            app:srcCompat="@drawable/gunadasa_kapuge"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="302dp" />
+            android:layout_marginTop="292dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/gunadasa_kapuge" />
 
         <ImageView
             android:id="@+id/imageView39"
             android:layout_width="85dp"
             android:layout_height="85dp"
-            app:srcCompat="@drawable/edward_jayakodi"
-            tools:layout_editor_absoluteX="33dp"
-            tools:layout_editor_absoluteY="515dp" />
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="488dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/edward_jayakodi" />
 
         <ImageView
             android:id="@+id/imageView40"
             android:layout_width="85dp"
             android:layout_height="85dp"
-            app:srcCompat="@drawable/dhanith_sri"
-            tools:layout_editor_absoluteX="162dp"
-            tools:layout_editor_absoluteY="515dp" />
+            android:layout_marginTop="496dp"
+            android:layout_marginEnd="176dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dhanith_sri" />
 
         <ImageView
             android:id="@+id/imageView41"
             android:layout_width="85dp"
             android:layout_height="85dp"
-            app:srcCompat="@drawable/adk"
-            tools:layout_editor_absoluteX="289dp"
-            tools:layout_editor_absoluteY="515dp" />
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="156dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/adk" />
 
         <TextView
             android:id="@+id/textView20"
@@ -169,35 +182,39 @@
             android:id="@+id/textView22"
             android:layout_width="123dp"
             android:layout_height="82dp"
+            android:layout_marginTop="376dp"
             android:text="W.D.      Amaradeva"
             android:textAlignment="center"
             android:textColor="#A3D16D"
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="404dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="152dp"
             android:layout_height="53dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginBottom="284dp"
             android:text="Sunil Edhirisinghe"
             android:textAlignment="center"
             android:textColor="#A3D16D"
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="137dp"
-            tools:layout_editor_absoluteY="404dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <TextView
             android:id="@+id/textView24"
             android:layout_width="132dp"
             android:layout_height="65dp"
-            android:layout_marginEnd="12dp"
+            android:layout_marginTop="392dp"
+            android:layout_marginEnd="16dp"
             android:text="Gunadasa Kapuge"
             android:textAlignment="center"
             android:textColor="#A3D16D"
             android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:layout_editor_absoluteY="404dp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView25"
@@ -207,30 +224,34 @@
             android:textAlignment="center"
             android:textColor="#A3D16D"
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="2dp"
-            tools:layout_editor_absoluteY="621dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginBottom="76dp"
             android:text="Dhanith Sri"
             android:textAlignment="center"
             android:textColor="#A3D16D"
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="155dp"
-            tools:layout_editor_absoluteY="621dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView27"
             android:layout_width="135dp"
             android:layout_height="66dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="56dp"
             android:text="Dinesh Kanagaratnam"
             android:textAlignment="center"
             android:textColor="#A3D16D"
             android:textSize="20dp"
-            tools:layout_editor_absoluteX="258dp"
-            tools:layout_editor_absoluteY="621dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <ImageButton
             android:id="@+id/imageButton12"
